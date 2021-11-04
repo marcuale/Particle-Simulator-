@@ -1,0 +1,25 @@
+rm: cannot remove ‘openmp_sum.txt’: No such file or directory
+n = 10000, simulation time = 2.09162 seconds, absmin = 0.751121, absavg = 0.956953
+n = 10000,threads = 1, simulation time = 4.15185 seconds, absmin = 0.751503, absavg = 0.956895
+n = 10000,threads = 2, simulation time = 4.2204 seconds, absmin = 0.754964, absavg = 0.956985
+n = 10000,threads = 4, simulation time = 3.90491 seconds, absmin = 0.764458, absavg = 0.956732
+n = 10000,threads = 8, simulation time = 4.61296 seconds, absmin = 0.729011, absavg = 0.957092
+n = 10000,threads = 16, simulation time = 7.04337 seconds, absmin = 0.761423, absavg = 0.956028
+n = 20000,threads = 2, simulation time = 8.35657 seconds, absmin = 0.766477, absavg = 0.957060
+n = 40000,threads = 4, simulation time = 14.471 seconds, absmin = 0.762439, absavg = 0.957002
+/var/spool/slurm/slurmd/job126476/slurm_script: line 29: 27537 Killed                  ./openmp -n 80000 -s openmp_sum.txt
+/var/spool/slurm/slurmd/job126476/slurm_script: line 31: 27579 Killed                  ./openmp -n 160000 -s openmp_sum.txt
+
+Strong scaling estimates are :
+    0.50    0.50    0.54    0.45 (speedup)
+    0.50    0.25    0.13    0.06 (efficiency)    for
+       1       2       4       8 threads/processors
+
+Average strong scaling efficiency:    0.24 
+
+Weak scaling estimates are :
+    0.50    0.30    0.25    0.14 (efficiency)    for
+       1       2       4       8 threads/processors
+
+Average weak scaling efficiency:    0.30 
+

@@ -1,0 +1,26 @@
+rm: cannot remove ‘mpi_sum.txt’: No such file or directory
+n = 10000, simulation time = 2.09615 seconds
+n = 10000, simulation time = 2.15125 seconds
+n = 10000, simulation time = 1.43467 seconds
+n = 10000, simulation time = 1.10608 seconds
+n = 10000, simulation time = 0.953927 seconds
+n = 10000, simulation time = 1.72241 seconds
+n = 10000, simulation time = 2.19892 seconds
+n = 20000, simulation time = 2.91338 seconds
+n = 40000, simulation time = 6.18832 seconds
+n = 80000, simulation time = 20.125 seconds
+n = 160000, simulation time = 47.5797 seconds
+
+Strong scaling estimates are :
+    0.97    1.46    1.90    2.20    1.22 (speedup)
+    0.97    0.73    0.47    0.27    0.08 (efficiency)    for
+       1       2       4       8      16 threads/processors
+
+Average strong scaling efficiency:    0.51 
+
+Weak scaling estimates are :
+    0.97    0.95    0.72    0.34    0.10 (efficiency)    for
+       1       2       4       8      16 threads/processors
+
+Average weak scaling efficiency:    0.62 
+

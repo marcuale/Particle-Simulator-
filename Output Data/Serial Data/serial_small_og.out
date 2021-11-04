@@ -1,0 +1,13 @@
+rm: cannot remove ‘serial_sum_small.txt’: No such file or directory
+n = 500, simulation time = 1.0278 seconds
+n = 1000, simulation time = 4.03673 seconds
+n = 1500, simulation time = 9.01019 seconds
+n = 2000, simulation time = 15.9793 seconds
+n = 3000, simulation time = 35.8046 seconds
+n = 4000, simulation time = 64.0021 seconds
+n = 6000, simulation time = 145.41 seconds
+n = 8000, simulation time = 263.089 seconds
+
+Serial code is O(N^slope)
+Slope estimates are : 1.973628 1.980247 1.991566 1.989770 2.019033 2.023951 2.061077
+Slope estimate for line fit is: 1.998579

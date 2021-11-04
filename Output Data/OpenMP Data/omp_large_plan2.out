@@ -1,0 +1,25 @@
+rm: cannot remove ‘openmp_sum.txt’: No such file or directory
+n = 10000, simulation time = 2.09364 seconds, absmin = 0.766051, absavg = 0.957349
+n = 10000,threads = 1, simulation time = 2.11483 seconds, absmin = 0.746618, absavg = 0.956822
+n = 10000,threads = 2, simulation time = 2.79413 seconds, absmin = 0.768489, absavg = 0.956837
+n = 10000,threads = 4, simulation time = 1.91777 seconds, absmin = 0.745254, absavg = 0.957154
+n = 10000,threads = 8, simulation time = 1.65687 seconds, absmin = 0.762978, absavg = 0.957110
+n = 10000,threads = 16, simulation time = 1.44047 seconds, absmin = 0.768734, absavg = 0.954908
+n = 20000,threads = 2, simulation time = 5.25872 seconds, absmin = 0.765006, absavg = 0.957129
+n = 40000,threads = 4, simulation time = 7.6182 seconds, absmin = 0.751797, absavg = 0.956937
+n = 80000,threads = 8, simulation time = 13.0757 seconds, absmin = 0.739181, absavg = 0.957071
+n = 160000,threads = 16, simulation time = 23.81 seconds, absmin = 0.740399, absavg = 0.956994
+
+Strong scaling estimates are :
+    0.99    0.75    1.09    1.26    1.45 (speedup)
+    0.99    0.37    0.27    0.16    0.09 (efficiency)    for
+       1       2       4       8      16 threads/processors
+
+Average strong scaling efficiency:    0.38 
+
+Weak scaling estimates are :
+    0.99    0.40    0.27    0.16    0.09 (efficiency)    for
+       1       2       4       8      16 threads/processors
+
+Average weak scaling efficiency:    0.38 
+
